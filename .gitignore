@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+*/node_modules
+
+# production
+/build
+
+# dev_env
+.idea/
+
+# prev_realization
+src/_old/

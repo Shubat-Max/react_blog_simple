@@ -1,0 +1,77 @@
+.comment-from-wrap {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.comment-form {
+    padding: 20px 20px;
+    border: 1px solid #00BFFF;
+    border-radius: 5px;
+}
+
+.comment-submit-button {
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    margin: 20px 80px 0;
+    padding: 8px;
+    transition: .14s;
+    max-width: 138px;
+    background: #14bfff;
+    border: 1px solid #14bfff;
+    box-shadow: none;
+}
+
+.comment-submit-button:hover {
+    background: #00b6eb;
+    border: 1px solid #00b6eb;
+}
+
+.comment-submit-button:active {
+
+    background: #00BFFF;
+    border: 1px solid #00BFFF;
+    box-shadow: 0 0 0 1px #fff inset;
+}
+
+.comment-form-label,
+.comment-form-input {
+    display: block;
+}
+
+.comment-form-input {
+    box-shadow: 0 0 0 1px #00BFFF inset;
+    border-radius: 3px;
+    border: none;
+    width: 300px;
+    height: 25px;
+    padding: 5px 8px;
+    font-size: 16px;
+    max-width: 300px;
+}
+
+textarea.comment-form-input {
+    height: 100px;
+}
+
+.comment-form-label {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    color: #00BFFF;
+}
+
+.comment-form-input:not(:last-of-type) {
+    margin-bottom: 20px;
+}
+
+.comment-form-input__error {
+    box-shadow: 0 0 0 1px #ff5329 inset;
+    outline-color: #ff5329;
+}

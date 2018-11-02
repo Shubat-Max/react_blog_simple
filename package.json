@@ -1,0 +1,31 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "immutable": "^3.8.2",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-day-picker": "^6.0.3",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.7",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-select": "^1.2.1",
+    "react-transition-group": "^2.3.1",
+    "redux": "^4.0.0",
+    "redux-thunk": "^2.3.0",
+    "reselect": "^3.0.1",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "concurrently \"react-scripts start\" \"node simple_api/server.js\"",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "api": "node simple_api/server.js"
+  },
+  "devDependencies": {
+    "concurrently": "^4.0.1"
+  }
+}
